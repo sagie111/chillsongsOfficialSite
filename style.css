@@ -22,7 +22,7 @@
 
 .whyMe h1 {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 350;
     color: aliceblue;
     
 }
@@ -67,12 +67,7 @@
     
 }
 
-.dad p::first-letter {
-    font-size: 1.5rem;
-    color: aqua;
-    font-weight: bold;
 
-}
 
 .card {
     margin-top: 30px;
@@ -106,6 +101,51 @@ footer {
 
 */
 
+.why2 {
+
+    width: min(calc(80% -2rem), 60rem);
+    margin-inline: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.why2 h1{
+
+    font-size: 3rem;
+    font-weight: 350;
+    color: aliceblue;
+}
+
+.why2 p {
+    
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+.why3 {
+
+    width: min(calc(80% -2rem), 60rem);
+    margin-inline: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.why3 h1{
+
+    font-size: 3rem;
+    font-weight: 350;
+    color: aliceblue;
+}
+
+.why3 p {
+    
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+}
 
 footer {
     margin-top: 70px;
@@ -118,6 +158,10 @@ p.copyright {
     font-size: 1em;
     text-align: center;
     bottom:0;
+}
+
+p {
+    margin-top: 15px;
 }
 
 
@@ -139,18 +183,28 @@ p.copyright {
 
 @media screen and (max-width: 600px) {
     .title h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .whyMe h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
+    }
+    .why2 h1{
+
+        font-size: 1.6rem;
+    }
+
+    
+    .why3 h1{
+
+        font-size: 1.6rem;
     }
 
  
     
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 380px) {
 
     p.copyright {
        
